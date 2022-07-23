@@ -70,6 +70,8 @@ export default {
 
 <style lang="scss" scoped>
    .header{
+        position: fixed;
+        z-index: 1;
         background-color: #ffba00;
         width: 100%;
         font-weight: 300;
