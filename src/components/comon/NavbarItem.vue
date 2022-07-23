@@ -109,7 +109,9 @@ export default {
                 a {
                         text-decoration: none;
                     button{
-                        border:none;    
+                        outline:none;
+                        border:none;  
+                        border-radius:4px;    
                         width: 123px;
                         height: 32px;
                         color:#fff;
@@ -137,6 +139,7 @@ export default {
                     color:#ffba00;
                     font-size: 20px;
                     font-weight: 600;
+                    cursor: pointer;
                 }
             }
         }
