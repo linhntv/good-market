@@ -149,8 +149,224 @@
                 </li>
             </ul>
         </div>
-        <div class="home-footer">
-            
+        <div class="home-product">
+            <h2>Tin đăng mới</h2>
+            <ul class="home-product-list">
+                <li>
+                    <a href="">
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
+                        <p>
+                            Xe mới sử dụng
+                        </p>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>.</div>
+                            <span>1 phút trước</span>
+                            <div>.</div>
+                            <span>Quảng Nam</span>
+                        </div>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="@/assets/img/img-home/" alt="Ảnh">
+                        <p>
+
+                        </p>
+                        <span>
+
+                        </span>
+                        <div>
+                            i
+                        </div>
+                    </a>
+                </li> -->
+            </ul>
         </div>
     </div>
 </template>
@@ -234,6 +450,45 @@ export default {
                         width: 110px;
                         text-align: center;
                         font-size: 14px;
+                    }
+                }
+            }
+        }
+        &-product {
+            width: 995px;
+            padding: 12px;
+            background-color: #fff;
+            margin-bottom: 8px;
+            h2 {
+                font-size:17px;
+                font-weight: bold;
+            }
+            .home-product-list {
+                li {
+                    a {
+                        text-decoration: none;
+                        .home-product-img {
+                            width: 166px;
+                            height: 166px;
+                        }
+                        p {
+
+                        }
+                        span {
+
+                        }
+                        .home-user {
+                            .home-user-img {
+                            width: 16px;
+                            height: 16px;
+                            }
+                             div {
+
+                            }
+                            span {
+
+                            }
+                        }
                     }
                 }
             }
