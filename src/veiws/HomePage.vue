@@ -155,217 +155,302 @@
                 <li>
                     <a href="">
                         <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
-                        <p>
-                            Xe mới sử dụng
-                        </p>
+                        <div>
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
                         <span>
                             57.000.000 đ
                         </span>
                         <div class="home-user">
                             <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
-                            <div>.</div>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
                             <span>1 phút trước</span>
-                            <div>.</div>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
                             <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <!-- <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
+                 <li>
                     <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            i
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
+                        </div>
+                    </a>
+                </li> <li>
+                    <a href="">
+                        <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
+                        <div>
+                            <p>Xe mới sử dụng</p>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </div>
+                        <span>
+                            57.000.000 đ
+                        </span>
+                        <div class="home-user">
+                            <img class="home-user-img" src="@/assets/img/img-home/img-product/img-product-user/17116849.jpeg" alt="">
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>1 phút trước</span>
+                            <div>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <span>Quảng Nam</span>
                         </div>
                     </a>
                 </li>
-                <li>
-                    <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
-                        <div>
-                            i
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
-                        <div>
-                            i
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="@/assets/img/img-home/" alt="Ảnh">
-                        <p>
-
-                        </p>
-                        <span>
-
-                        </span>
-                        <div>
-                            i
-                        </div>
-                    </a>
-                </li> -->
+                
             </ul>
         </div>
     </div>
@@ -464,29 +549,69 @@ export default {
                 font-weight: bold;
             }
             .home-product-list {
+                display:flex;
+                flex-wrap: wrap;
+                overflow-x:auto;
+                height: 600px;
+                li:hover{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
                 li {
+                    display:flex;
+                    justify-content: center;
+                    border:1px solid transparent;
+                    border-bottom-color: #ccc;
+                    flex-basis: 20%;
                     a {
+                        margin-bottom: 8px;
                         text-decoration: none;
                         .home-product-img {
                             width: 166px;
                             height: 166px;
+                            margin-bottom: 8px;
                         }
-                        p {
-
-                        }
+                            div {
+                                display:flex;
+                                justify-content: space-between; 
+                                color:rgb(53, 45, 45);
+                                margin: 0;
+                                p {
+                                    font-size: 14px;
+                                    width: 150px;
+                                    height: 40px;
+                                    margin: 8px 0 0 0;
+                                }
+                            }
                         span {
-
+                            font-size: 15px;
+                            font-weight: bold;
+                            color:#d0021b;
+                            padding-bottom: 2px;
+                            line-height: 20px;
                         }
                         .home-user {
+                            display:flex;
+                            align-items: center;
+                            width: 100%;
+                            left:0;
+                            white-space: nowrap;
                             .home-user-img {
-                            width: 16px;
-                            height: 16px;
+                                width: 16px;
+                                height: 16px;
+                                border-radius: 50%;
                             }
                              div {
-
+                                padding: 0 2px;
+                                margin:0;
+                                font-size:3px;
+                                color:#9b9b9b;
                             }
                             span {
-
+                            color:#9b9b9b;
+                            font-size:10px;
+                            font-weight: 400;
+                            white-space: nowrap;
+                            padding-bottom: 0;
                             }
                         }
                     }
