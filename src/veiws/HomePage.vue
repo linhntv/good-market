@@ -474,11 +474,11 @@ export default {
         align-items: center;
         &-slider {
             max-width: 995px;
-            padding:28px;
+            padding:16px 28px;
             background-color: #fff;
             margin-bottom: 8px;
             img {
-                 margin-bottom: 8px;
+                 margin-bottom: 16px;
             }
             .home-list {
                 display:flex;

@@ -1,16 +1,15 @@
 <template>
     <NavbarItem/>
-    <HomePage/>
+    <router-view/>
     <hr/>
     <Footer/>
 </template>
 
 <script>
-import NavbarItem from './components/comon/NavbarItem.vue';
+import NavbarItem from '@/components/comon/NavbarItem.vue';
 import Footer from '@/components/comon/Footer.vue'
-import HomePage from './veiws/HomePage.vue';
 export default {
-    components: { NavbarItem, Footer, HomePage }
+    components: { NavbarItem, Footer}
 }
 </script>
 
