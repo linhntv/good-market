@@ -50,7 +50,7 @@ export default {
 
 <style lang="scss" scoped>
     .login {
-        overflow: auto;
+       overflow-x: auto;
         position: relative;
         width: 100%;
         height: 100vh;

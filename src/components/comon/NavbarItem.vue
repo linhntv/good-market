@@ -3,7 +3,7 @@
         <ul class="header-list">
             <li>
                 <a href="">
-                    <img src="@/assets/img/transparent_logo.webp" alt="">
+                    <img src="@/assets/img/img-nav/transparent_logo.webp" alt="">
                 </a>
             </li>
             <li>
@@ -40,11 +40,75 @@
                     Thông báo
                 </div>
             </li>
-            <li>
+            <li class="header-form">
                 <div>
                     <i class="fa-solid fa-ellipsis"></i>
                     Thêm
                 </div>
+                <form action="" class="header-form-list">
+                    <div class="header-form-warp">
+                        <div class="header-form-item">
+                            <img src="@/assets/img/img-nav/user.jpeg" alt="">
+                            <span>Đăng nhập / Đăng ký</span>
+                        </div>
+                        <a class="form-list-item" href="">
+                            <img src="@/assets/img/img-nav/ví-bán-hàng.svg" alt="">
+                            <p>Ví bán hàng</p>
+                            <b>
+                                Liên kết ngay
+                                <i class="fa-solid fa-angle-right"></i>
+                            </b>
+                        </a>
+                        <a href="">
+                            <img src="@/assets/img/img-nav/đơn-bán.svg" alt="">
+                            <p>Đơn bán</p>
+                        </a>
+                        <a href="">
+                            <img src="@/assets/img/img-nav/đơn-mua.svg" alt="">
+                            <p>Đơn mua</p>
+                        </a>
+                        <a href="">
+                            <img src="@/assets/img/img-nav/tin-đăng-đã-lưu.svg" alt="">
+                            <p>Tin đăng đã lưu</p>
+                        </a>
+                        <a href="">
+                            <img src="@/assets/img/img-nav/tìm-kiếm-đã-lưu.svg" alt="">
+                            <p>Tìm kiếm đã lưu</p>
+                        </a>
+                        <a class="header-form-separation" href="">
+                            <img src="@/assets/img/img-nav/bạn-bè.svg" alt="">
+                            <p>Bạn bè</p>
+                        </a>
+                         <a href="">
+                            <img src="@/assets/img/img-nav/sub-pro.svg" alt="">
+                            <p>
+                                Gói PRO
+                                <span>Mới</span>
+                            </p>
+                        </a>
+                         <a class="header-form-separation" href="">
+                            <img src="@/assets/img/img-nav/tạo-cửa-hàng.svg" alt="">
+                            <p>Tạo cửa hàng / chuyên trang</p>
+                        </a>
+                        <a href="">
+                            <img src="@/assets/img/img-nav/chợ-tốt-ưu-đãi.svg" alt="">
+                            <p>Chợ tốt ưu đãi</p>
+                        </a>
+                        <a class="header-form-separation" href="">
+                            <img src="@/assets/img/img-nav/vòn-quay-may-mắn.svg" alt="">
+                            <p>Vòng quay may mắn</p>
+                        </a>
+                        <a class="header-form-separation " href="">
+                            <img src="@/assets/img/img-nav/tải-ứng-dụng-miễn-phí.svg" alt="">
+                            <p>Tải ứng dụng miễn phí</p>
+                        </a>
+                        <a class="header-form-separation separation2" href="">
+                            <img src="@/assets/img/img-nav/trợ-giúp.svg" alt="">
+                            <p>Trợ giúp</p>
+                        </a>
+                    </div>
+                   
+                </form>
             </li>
         </ul>
         <ul class="header-list2">
@@ -84,6 +148,7 @@ export default {
         background-color: #ffba00;
         width: 100%;
         font-weight: 300;
+// css header-list
         &-list {
             height: 52px;
             display: flex;
@@ -93,6 +158,7 @@ export default {
             li:hover>a,li:hover>div{
                 color:rgb(109, 107, 107);
             }
+// css li chung
            li {
                 line-height:52px ;
                 cursor: pointer;
@@ -101,11 +167,87 @@ export default {
                     line-height: 52px;
                     img {
                         width: 95px;
-                     height: 35px;
+                        height: 35px;
                     }
                 }
             }
+// css header-form
+            .header-form {
+                position: relative;
+               
+                div {
 
+                }
+                .header-form-list {
+                    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+                    width: 305px;
+                    position: absolute;
+                    top: 50px;
+                    right: -2px;
+                    background-color: #fff;
+                    z-index: 2;
+                    .header-form-warp {
+                         overflow-y: auto;
+                        .header-form-item {
+                            padding: 16px;
+                            img {
+                                width: 60px;
+                                height: 60px;
+                                border-radius: 50%;
+                            }
+                            span {
+                                font-size:14px;
+                                margin-left:8px;
+                            }
+                        }
+                        .form-list-item {
+                            background-color: #fff7ea;
+                            b {
+                            font-size:12px;
+                            color:#fe9900;
+                            }
+                        }
+                        a:hover {
+                            background-color: mistyrose;
+                        }
+                        .separation2 {
+                            padding: 12px;
+                        }
+                        .header-form-separation {
+                            border-bottom: 1px solid #ccc;
+                            p {
+                                
+                            }
+                            }
+                        }
+                        a {
+                            width: 100%;
+                            display:flex;
+                            align-items: center;
+                            padding: 0 16px;
+                            line-height: 38px;
+                        img {
+                            width: 30px;
+                            height: 30px;
+                        }
+                        p {
+                            font-size:14px;
+                            color:#000;
+                            margin: 0 40px 0 8px;
+                            span {
+                                color:#fff;
+                                padding: 2px;
+                                background-color: #e64b00;
+                                margin-left:8px;
+                                border-radius: 4px;
+                                font-size:10px;
+                            }
+                    }
+                    }
+                    
+                }
+            }
+// css phần đơn hàng
             .header-list-list:hover .header-list-child {
                 display: block;
             }
@@ -157,7 +299,7 @@ export default {
                 }
             }
         }
-
+// css header-list2
         &-list2 {
             display: flex;
             justify-content: space-around;
