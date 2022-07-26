@@ -14,9 +14,9 @@
                     </div>
                     <img src="@/assets/img/img-login/logo.svg" alt="" class="form-img">
                 </div>
-                <input type="text" class="login-input" placeholder="Nhập SĐT của bạn">
-                <input type="text" class="login-input" placeholder="Nhập mật khẩu của bạn">
-                <button>Đăng nhập</button>
+                <input type="text" class="login-input" placeholder="Nhập SĐT của bạn" required v-model="formData.userName" >
+                <input type="text" class="login-input" placeholder="Nhập mật khẩu của bạn" required v-model="formData.password">
+                <button @click="login">Đăng nhập</button>
                 <div class="form-list">
                     <a href="">Bạn quên mật khẩu?</a>
                     <p>Hoặc sử dụng</p>
@@ -49,8 +49,32 @@
 </template>
 
 <script>
+const user = {
+    userName:"linhnguyen",
+    password:"99999",
+}
 export default {
-
+    data(){
+        return {
+            formData:{
+                userName:"",
+                password:"",
+            },
+        }
+    },
+    methods: {
+        login(){
+            if(
+                this.formData.userName === user.userName &&
+                this.formData.password === user.password
+            ) {
+                console.log("Đăng nhập thành công!");
+                this.$router.push("/")
+            } else {
+                alert("Mật khẩu hoặc tên đăng nhập sai!")
+            }
+        }
+    },
 }
 </script>
 
@@ -119,7 +143,7 @@ export default {
                     border-radius: 4px;
                     font-size:14px;
                 }
-                button {
+                button,button:valid {
                     width: 300px;
                     padding: 8px;
                     outline:none;
