@@ -483,6 +483,7 @@ export default {
             .home-list {
                 display:flex;
                 justify-content: space-around;
+                margin-bottom:0;
                 li {
                     a {
                         display:flex;

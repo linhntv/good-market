@@ -3,22 +3,30 @@
         <div class="login-item">
             <a href="/">Trang chủ</a>
             <span>~</span>
-            <p>Đăng nhập</p>
+            <a href="/LoginPage">Đăng nhập</a>
+            <span>~</span>
+            <p>Đăng ký</p>
         </div>
         <form class="login-form" action="">
             <div class="form-warp">
                 <div class="form-group">
                     <div class="form-item">
-                        <h3>Đăng nhập</h3>
-                        <p>Chào bạn quay lại</p>
+                        <h3>Đăng ký</h3>
+                        <p>Tạo tài khoản chợ tốt ngay</p>
                     </div>
-                    <img src="@/assets/img/img-login/logo.svg" alt="" class="form-img">
+                    <img src="@/assets/img/img-login/logo_register.png" alt="" class="form-img">
                 </div>
                 <input type="text" class="login-input" placeholder="Nhập SĐT của bạn">
-                <input type="text" class="login-input" placeholder="Nhập mật khẩu của bạn">
-                <button>Đăng nhập</button>
+                <input type="text" class="login-input" placeholder="Tạo một mật khẩu có ít nhất 5 ký tự">
+                <button>Đăng ký</button>
                 <div class="form-list">
-                    <a href="">Bạn quên mật khẩu?</a>
+                    <span>
+                        Bằng việc đăng ký,bạn đã đồng ý với 
+                        <a href="https://trogiup.chotot.com/nguoi-ban/hoat-dong/?_ga=2.186233897.1493736879.1658554427-598036939.1657593865">
+                            Điều khoản sử 
+                            <br/> dụng
+                        </a> của chợ tốt
+                    </span>
                     <p>Hoặc sử dụng</p>
                     <ul>
                         <li>
@@ -38,8 +46,8 @@
                         </li>
                     </ul>
                     <div> 
-                        Chưa có tài khoản? 
-                        <a href="/Register">Đăng ký ngay</a>
+                        Bạn đã có tài khoản? 
+                        <a href="/LoginPage">Đăng nhập</a>
                     </div>
                 </div>
             </div>
@@ -100,12 +108,15 @@ export default {
                         font-size:20px;
                         color:#ffba00;
                         margin: 0;
+                        font-weight: bold;
                     }
                     p {
                         font-size:14px;
                         color:#9b9b9b;
                     }
                     .form-img {
+                        width: 87px;
+                        height: 80px;
                     }
     
                 }
@@ -131,11 +142,15 @@ export default {
                 }
                 .form-list {
                     text-align: center;
-                    a {
-                        font-size:12px;
-                        text-decoration: none;
-                        color:#1d71ca;
+                    span {
+                         font-size:12px;
+                         text-align: center;
+                         max-width: 300px;
+                        a {
                        
+                        text-decoration: none;
+                        color:#38699f;        
+                    }
                     }
                     p {
                          margin-top:20px;
@@ -160,7 +175,8 @@ export default {
                         font-size:12px;
                         padding-bottom: 60px;
                         a {
-
+                            color:#38699f;
+                            text-decoration: none;
                         }
                     }
                 }
