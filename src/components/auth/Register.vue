@@ -1,9 +1,9 @@
 <template>
   <div class="login">
         <div class="login-item">
-            <a href="/">Trang chủ</a>
+            <router-link to="/">Trang chủ</router-link>
             <span>~</span>
-            <a href="/LoginPage">Đăng nhập</a>
+            <router-link to="/LoginPage">Đăng nhập</router-link>
             <span>~</span>
             <p>Đăng ký</p>
         </div>
@@ -47,7 +47,7 @@
                     </ul>
                     <div> 
                         Bạn đã có tài khoản? 
-                        <a href="/LoginPage">Đăng nhập</a>
+                        <router-link to="/LoginPage">Đăng nhập</router-link>
                     </div>
                 </div>
             </div>

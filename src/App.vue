@@ -2,14 +2,14 @@
     <NavbarItem/>
     <router-view/>
     <hr/>
-    <Footer/>
+    <FooterPage/>
 </template>
 
 <script>
 import NavbarItem from '@/components/comon/NavbarItem.vue';
-import Footer from '@/components/comon/Footer.vue'
+import FooterPage from '@/components/comon/FooterPage.vue'
 export default {
-    components: { NavbarItem, Footer}
+    components: { NavbarItem, FooterPage}
 }
 </script>
 

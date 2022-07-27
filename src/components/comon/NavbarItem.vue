@@ -7,16 +7,16 @@
                 </a>
             </li>
             <li>
-                <a href="/">
+                <router-link to="/">
                     <i class="fa-solid fa-house"></i>
                     Trang chủ
-                </a>
+                </router-link>
             </li>
             <li>
-                <a href="/LoginPage">
+                <router-link to="/LoginPage">
                     <i class="fa-solid fa-user-graduate"></i>
                     Quản lý tin
-                </a>
+                </router-link>
             </li>
             <li class="header-list-list">
                 <a href="">
@@ -29,10 +29,10 @@
                     </ul>
             </li>
             <li>
-                <a href="/LoginPage">
+                <router-link to="/LoginPage">
                     <i class="fa-solid fa-envelope-open-text"></i>
                     Chat
-                </a>
+                </router-link>
             </li>
 <!--form thông báo------------------------------------------------------------------------------------  -->
             <li class="form-notification" @click="hidden= !hidden">
@@ -145,18 +145,18 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </li>
             <li>
-                <a href="/LoginPage">
+                <router-link to="/LoginPage">
                     <i class="fa-solid fa-circle-user"></i>
                     Đăng nhập
-                </a>
+                </router-link>
             </li>
             <li>
-                <a href="/LoginPage">
+                <router-link to="/LoginPage">
                     <button>
                         <i class="fa-solid fa-pen-to-square"></i>
                         Đăng ký
                     </button>
-                </a>
+                </router-link>
             </li>
         </ul>
   </div>
