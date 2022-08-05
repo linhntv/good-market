@@ -22,7 +22,7 @@
                     <p>Hoặc sử dụng</p>
                     <ul>
                         <li>
-                            <a href="https://www.facebook.com/login/reauth.php?app_id=221564734660253&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv9.0%2Fdialog%2Foauth%3Fapp_id%3D221564734660253%26cbt%3D1658839661239%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df17f651a8cdb1d4%2526domain%253Daccounts.chotot.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Faccounts.chotot.com%25252Ff24388d85b7114%2526relation%253Dopener%26client_id%3D221564734660253%26display%3Dpopup%26domain%3Daccounts.chotot.com%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Faccounts.chotot.com%252F%253Fcontinue%253Dhttps%253A%252F%252Fwww.chotot.com%252Fprofile%252Fpayout%26locale%3Den_US%26logger_id%3Df3def67f43993d8%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Dff6f01f519deb8%2526domain%253Daccounts.chotot.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Faccounts.chotot.com%25252Ff24388d85b7114%2526relation%253Dopener%2526frame%253Dffff3e41d29bf4%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26return_scopes%3Dtrue%26scope%3Demail%26sdk%3Djoey%26version%3Dv9.0%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dff6f01f519deb8%26domain%3Daccounts.chotot.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Faccounts.chotot.com%252Ff24388d85b7114%26relation%3Dopener%26frame%3Dffff3e41d29bf4%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=en_GB&pl_dbl=0">
+                            <a  href="https://www.facebook.com/login/reauth.php?app_id=221564734660253&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv9.0%2Fdialog%2Foauth%3Fapp_id%3D221564734660253%26cbt%3D1658839661239%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df17f651a8cdb1d4%2526domain%253Daccounts.chotot.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Faccounts.chotot.com%25252Ff24388d85b7114%2526relation%253Dopener%26client_id%3D221564734660253%26display%3Dpopup%26domain%3Daccounts.chotot.com%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Faccounts.chotot.com%252F%253Fcontinue%253Dhttps%253A%252F%252Fwww.chotot.com%252Fprofile%252Fpayout%26locale%3Den_US%26logger_id%3Df3def67f43993d8%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Dff6f01f519deb8%2526domain%253Daccounts.chotot.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Faccounts.chotot.com%25252Ff24388d85b7114%2526relation%253Dopener%2526frame%253Dffff3e41d29bf4%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26return_scopes%3Dtrue%26scope%3Demail%26sdk%3Djoey%26version%3Dv9.0%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dff6f01f519deb8%26domain%3Daccounts.chotot.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Faccounts.chotot.com%252Ff24388d85b7114%26relation%3Dopener%26frame%3Dffff3e41d29bf4%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=en_GB&pl_dbl=0">
                                 <img src="@/assets/img/img-login/facebook.svg" alt="">
                             </a>
                         </li>
@@ -37,8 +37,8 @@
                             </a>
                         </li>
                     </ul>
-                    <div> 
-                        Chưa có tài khoản? 
+                    <div>
+                        Chưa có tài khoản?
                         <router-link to="/Register">Đăng ký ngay</router-link>
                     </div>
                 </div>
@@ -50,31 +50,31 @@
 
 <script>
 const user = {
-    userName:"linhnguyen",
-    password:"99999",
+  userName: 'linhnguyen',
+  password: '99999'
 }
 export default {
-    data(){
-        return {
-            formData:{
-                userName:"",
-                password:"",
-            },
-        }
-    },
-    methods: {
-        login(){
-            if(
-                this.formData.userName === user.userName &&
+  data () {
+    return {
+      formData: {
+        userName: '',
+        password: ''
+      }
+    }
+  },
+  methods: {
+    login () {
+      if (
+        this.formData.userName === user.userName &&
                 this.formData.password === user.password
-            ) {
-                console.log("Đăng nhập thành công!");
-                this.$router.push("/")
-            } else {
-                alert("Mật khẩu hoặc tên đăng nhập sai!")
-            }
-        }
-    },
+      ) {
+        console.log('Đăng nhập thành công!')
+        this.$router.push('/')
+      } else {
+        alert('Mật khẩu hoặc tên đăng nhập sai!')
+      }
+    }
+  }
 }
 </script>
 
@@ -112,14 +112,14 @@ export default {
             .form-warp {
                 margin:19px;
                 padding:20;
-               
+
                 .form-group {
                     display:flex;
                     justify-content:space-between;
                     align-items: center;
                      width: 300px;
                      padding-top:40px;
-                    .form-item 
+                    .form-item
                     h3 {
                         font-size:20px;
                         color:#ffba00;
@@ -131,7 +131,7 @@ export default {
                     }
                     .form-img {
                     }
-    
+
                 }
                 .login-input {
                     display: block;
@@ -159,7 +159,7 @@ export default {
                         font-size:12px;
                         text-decoration: none;
                         color:#1d71ca;
-                       
+
                     }
                     p {
                          margin-top:20px;
@@ -172,11 +172,13 @@ export default {
                         li {
                             margin: 0 8px;
                             cursor: pointer;
-                            img {
-                                width: 40px;
-                                height: 40px;
-                                border-radius:50%;
-                                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                            a {
+                                img {
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius:50%;
+                                    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                                }
                             }
                         }
                     }

@@ -1,9 +1,10 @@
-
 import {createRouter,createWebHistory} from 'vue-router'
 
-import HomePage from '@/veiws/HomePage.vue'
+import HomePage from '@/veiws/HomeLink/HomePage.vue'
 import LoginPage from '@/components/auth/LoginPage.vue'
 import Register from '@/components/auth/Register.vue'
+import RotationLuck from '@/veiws/HomeLink/RotationLuck'
+
 
 
 
@@ -17,6 +18,9 @@ const routes = [
     {
         path: '/Register',component:Register
     },
+    {
+        path: '/RotationLuck',component:RotationLuck
+    },
     
 ]
 
@@ -26,4 +30,5 @@ const router = createRouter({
 })
 
 export default router
+
 

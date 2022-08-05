@@ -1,19 +1,21 @@
+<!-- eslint-disable vue/no-parsing-error -->
+
 <template>
     <div class="home">
         <div class="home-slider">
             <img src="@/assets/img/img-home/slider-img/slider.jpg" alt="">
             <ul class="home-list">
                 <li>
-                    <a href="">
+                    <router-link to="/LoginPage">
                         <img src="@/assets/img/img-home/slider-img/image.webp" alt="">
                         <span>Ví bán hàng</span>
-                    </a>
+                    </router-link>
                 </li>
                 <li>
-                    <a href="">
+                    <router-link to="/LoginPage">
                         <img src="@/assets/img/img-home/slider-img/girt.webp" alt="">
                         <span>Đăng tin cho tặng</span>
-                    </a>
+                    </router-link>
                 </li>
                 <li>
                     <a href="">
@@ -22,10 +24,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <router-link to="/LoginPage">
                         <img src="@/assets/img/img-home/slider-img/imagedt.webp" alt="">
                         <span>Nộp đồng tốt</span>
-                    </a>
+                    </router-link>
                 </li>
                 <li>
                     <a href="">
@@ -34,23 +36,22 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <router-link to="/LoginPage">
                         <img src="@/assets/img/img-home/slider-img/heart.webp" alt="">
                         <span>Tin đăng đã lưu</span>
-                    </a>
+                    </router-link>
                 </li>
                 <li>
-                    <a href="">
-                        
+                    <router-link to="/RotationLuck">
                         <img src="@/assets/img/img-home/slider-img/rotation.webp" alt="">
                         <span>Vòng quay may mắn</span>
-                    </a>
+                    </router-link>
                 </li>
                 <li>
-                    <a href="">
+                    <router-link to="/LoginPage">
                         <img src="@/assets/img/img-home/slider-img/save.webp" alt="">
                         <span>Tìm kiếm đã lưu</span>
-                    </a>
+                    </router-link>
                 </li>
             </ul>
         </div>
@@ -450,7 +451,7 @@
                         </div>
                     </a>
                 </li>
-                
+
             </ul>
         </div>
     </div>
@@ -525,7 +526,7 @@ export default {
                     flex-direction: column;
                     align-items: center;
                     a {
-                       
+
                         img {
                             width: 84px;
                             height: 84px;
@@ -572,7 +573,7 @@ export default {
                         }
                             div {
                                 display:flex;
-                                justify-content: space-between; 
+                                justify-content: space-between;
                                 color:rgb(53, 45, 45);
                                 margin: 0;
                                 p {

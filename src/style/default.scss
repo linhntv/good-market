@@ -29,8 +29,32 @@ ul li{
 
 /* Tablet */
 @media (min-width:740px) and (max-width:1039px) {
-    
-   
+    // header------------------------------>
+    .header-list {
+        margin: 0 10px 0 10px !important;
+        li {
+            font-size:14px;
+        }  
+    }
+    .header-list2 {
+        margin:0 20px !important;
+      li {
+        input{
+            width: 400px !important;
+        }
+      }
+    }
+    // login-------------------------------->
+    .login-item{
+        margin:0 65px !important;
+    }
+    .login-form {
+        box-shadow:none !important; 
+     }
+    //  footer---------------------------->
+    .footer{
+        display:none;
+    }
 }
 /* Mobile */
 @media (max-width:739px){

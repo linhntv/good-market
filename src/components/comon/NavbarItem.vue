@@ -35,12 +35,12 @@
                 </router-link>
             </li>
 <!--form thông báo------------------------------------------------------------------------------------  -->
-            <li class="form-notification" @click="hidden= !hidden">
+            <li class="form-notification">
                 <div class="list-hover">
                     <i class="fa-solid fa-bell"></i>
                     Thông báo
                 </div>
-                <from class="form-notification-warp" v-show="hidden">
+                <from class="form-notification-warp" v-if="hidden">
                     <ul class="notification-list">
                         <li >Hoạt động</li>
                         <li>Tin mới</li>
@@ -68,7 +68,7 @@
             </li>
 <!-- form thêm ------------------------------------------------------------------------------------------>
             <li class="header-form" >
-                <div class="list-hover" @click="isSubmit = !isSubmit">
+                <div class="list-hover" @click="onToggleModal">
                     <i class="fa-solid fa-ellipsis"></i>
                     Thêm
                 </div>
@@ -134,7 +134,7 @@
                             <p>Trợ giúp</p>
                         </a>
                     </div>
-                   
+
                 </form>
             </li>
 <!-- ------------------------------------------------------------------------------------------- -->
@@ -164,12 +164,18 @@
 
 <script>
 export default {
-    data() {
-        return {
-            isSubmit:false,
-            hidden:false,
-        }
+  props: '',
+  data () {
+    return {
+      isSubmit: false,
+      hidden: false
     }
+  },
+  methods: {
+    onToggleModal () {
+      this.isSubmit = !this.isSubmit
+    }
+  }
 }
 </script>
 
@@ -268,7 +274,7 @@ export default {
                                 span {
                                     font-size:14px;
                                     color:#979797;
-                                    
+
                                 }
                                 a {
                                     font-size:12px;
@@ -284,7 +290,7 @@ export default {
 // css header-form
             .header-form {
                 position: relative;
-               
+
                 div {
 
                 }
@@ -299,7 +305,7 @@ export default {
                     background-color: #fff;
                     z-index: 2;
                     .header-form-warp {
-                        
+
                         .header-form-item {
                             padding: 16px;
                             img {
@@ -328,7 +334,7 @@ export default {
                         .header-form-separation {
                             border-bottom: 1px solid #ccc;
                             p {
-                                
+
                             }
                             }
                         }
@@ -356,7 +362,7 @@ export default {
                             }
                     }
                     }
-                    
+
                 }
             }
 // css phần đơn hàng
@@ -366,7 +372,7 @@ export default {
             .header-list-list {
                 position: relative;
                 a{
-                    
+
                 }
                 .header-list-child::before{
                     content: "";
@@ -386,7 +392,7 @@ export default {
                     right: 40px;
                     top: -20px;
                  }
-     
+
                 .header-list-child {
                     display:none;
                     background-color: #fff;
@@ -422,14 +428,14 @@ export default {
                 opacity:.7;
             }
             li {
-               
+
                 a {
                         text-decoration: none;
                     button{
                         cursor: pointer;
                         outline:none;
-                        border:none;  
-                        border-radius:4px;    
+                        border:none;
+                        border-radius:4px;
                         width: 123px;
                         height: 32px;
                         color:#fff;
