@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-dupe-keys -->
 <template>
   <div class="header">
         <ul class="header-list">
@@ -36,22 +37,25 @@
             </li>
 <!--form thông báo------------------------------------------------------------------------------------  -->
             <li class="form-notification">
-                <div class="list-hover">
+                <div class="list-hover" @click="showNotifi ">
                     <i class="fa-solid fa-bell"></i>
                     Thông báo
                 </div>
-                <from class="form-notification-warp" v-if="hidden">
-                    <ul class="notification-list">
-                        <li >Hoạt động</li>
-                        <li>Tin mới</li>
-                    </ul>
-                    <div class="notification-knot">
-                        <div>
-                            Vui lòng đăng nhập để xem danh sách hoạt động
+                <form class="form-notification-warp" v-if="hidden">
+                        <ul class="notification-list">
+                            <li @click="isSubmit1()" :class="{done1: this.done1}">Hoạt động</li>
+                            <li @click="isSubmit2()" :class="{done2: this.done2}">Tin mới</li>
+                        </ul>
+                        <div class="notification-knot" v-if="submit1">
+                            <div>
+                                Vui lòng đăng nhập để xem danh sách hoạt động
+                            </div>
+                            <button type="button" class="btn btn-warning"
+                            @click="logIn">
+                                    ĐĂNG KÝ/ĐĂNG NHẬP
+                            </button>
                         </div>
-                        <button type="button" class="btn btn-warning">ĐĂNG KÝ/ĐĂNG NHẬP</button>
-                    </div>
-                    <div class="notification-news">
+                    <div class="notification-news" v-if="submit2">
                         <div class="notification-news-list">
                             <img src="@/assets/img/img-nav/original.png" alt="">
                             <div>
@@ -64,7 +68,7 @@
                             </div>
                         </div>
                     </div>
-                </from>
+                </form>
             </li>
 <!-- form thêm ------------------------------------------------------------------------------------------>
             <li class="header-form" >
@@ -154,7 +158,7 @@
                 <router-link to="/LoginPage">
                     <button>
                         <i class="fa-solid fa-pen-to-square"></i>
-                        Đăng ký
+                        Đăng tin
                     </button>
                 </router-link>
             </li>
@@ -168,12 +172,38 @@ export default {
   data () {
     return {
       isSubmit: false,
-      hidden: false
+      hidden: false,
+      submit1: true,
+      submit2: false,
+      done1: true,
+      done2: false
+
     }
   },
   methods: {
     onToggleModal () {
       this.isSubmit = !this.isSubmit
+    },
+    showNotifi () {
+      this.hidden = !this.hidden
+    },
+    // eslint-disable-next-line vue/no-dupe-keys
+    isSubmit1 () {
+      this.submit1 = true
+      this.done1 = true
+      this.submit2 = false
+      this.done2 = false
+    },
+    // eslint-disable-next-line vue/no-dupe-keys
+    isSubmit2 () {
+      this.submit2 = true
+      this.done2 = true
+      this.submit1 = false
+      this.done1 = false
+    },
+    logIn () {
+      this.$router.push('/LoginPage')
+      this.hidden = !this.hidden
     }
   }
 }
@@ -194,12 +224,12 @@ export default {
             justify-content: space-evenly;
             align-content: center;
             margin: 0 114px 0 114px;
-            li:hover>a,li:hover>.list-hover{
+            li:hover > a, li:hover > .list-hover{
                 color:rgb(109, 107, 107);
             }
 // css li chung
            li {
-                 padding:12px 0;
+                padding:12px 0;
                 cursor: pointer;
                 line-height: 30px;
                 a {
@@ -228,16 +258,19 @@ export default {
                         display:flex;
                         justify-content: center;
                         li:hover {
-                            background-color: linen;
+                           background-color:rgb(244, 241, 238);
                         }
                         li {
                             width: 50%;
                             text-align: center;
                             border-bottom:1px solid #ccc;
                         }
+                        .done1, .done2 {
+                            background-color:linen;
+                            border-bottom:3px solid #fe9900;
+                        }
                     }
                     .notification-knot {
-                        display:none;
                         div {
                             text-align: center;
                             margin-bottom: 12px;
@@ -249,6 +282,7 @@ export default {
                             transform: translateX(-50%);
                             color:#fff;
                             margin-bottom:12px;
+                            font-size:14px
                         }
                     }
                     .notification-news {

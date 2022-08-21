@@ -1,5 +1,4 @@
 <!-- eslint-disable vue/no-parsing-error -->
-
 <template>
     <div class="home">
         <div class="home-slider">

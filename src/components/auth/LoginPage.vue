@@ -66,7 +66,7 @@ export default {
     login () {
       if (
         this.formData.userName === user.userName &&
-                this.formData.password === user.password
+        this.formData.password === user.password
       ) {
         console.log('Đăng nhập thành công!')
         this.$router.push('/')

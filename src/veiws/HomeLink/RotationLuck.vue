@@ -13,18 +13,18 @@
             </div>
         </div>
         <div class="Rotation-footer">
-        <div class="Rotation-history">
-            <i class="fa-solid fa-clock-rotate-left"></i>
-            Lịch sử
-        </div>
-         <div class="Rotation-history">
-            <i class="fa-solid fa-arrow-up-short-wide"></i>
-            Trúng thưởng
-        </div>
-         <div class="Rotation-history">
-           <i class="fa-solid fa-align-justify"></i>
-            Thể lệ
-        </div>
+            <div class="Rotation-history">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                Lịch sử
+            </div>
+            <div class="Rotation-history">
+                <i class="fa-solid fa-arrow-up-short-wide"></i>
+                Trúng thưởng
+            </div>
+            <div class="Rotation-history">
+            <i class="fa-solid fa-align-justify"></i>
+                Thể lệ
+            </div>
     </div>
     </div>
   </form>
@@ -38,6 +38,7 @@ export default {
 
 <style lang="scss" scoped>
     .Rotation-form {
+        overflow: hidden;
         width: 100%;
         height: auto;
         background-color: rgba(0,0,0,0.1);
@@ -50,11 +51,11 @@ export default {
             overflow: hidden;
             position: relative;
             box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            border-top-right-radius: 12px;
+            border-top-left-radius: 12px;
             img {
                 width: 500px;
                 height: 740px;
-                border-top-right-radius: 12px;
-                border-top-left-radius: 12px;
             }
         .Rotation-img-ring {
             position: absolute;
@@ -100,6 +101,7 @@ export default {
             }
         }
         .Rotation-footer {
+            overflow: hidden;
                 display:flex;
                 width: 100%;
                 background-color: #fff;
