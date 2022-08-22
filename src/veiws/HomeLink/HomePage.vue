@@ -156,7 +156,7 @@
                     <a href="">
                         <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/xemay.jpg" alt="Ảnh xe máy">
                         <div>
-                            <p>Xe mới sử dụng</p>
+                            <p>Bán xe honda AB bstp xe đẹp az</p>
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <span>
@@ -179,7 +179,7 @@
                     <a href="">
                         <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/batdongsan.jpg" alt="Ảnh xe máy">
                         <div>
-                            <p>Bất động sản giá rẻ</p>
+                            <p>🌺Bán nhà xinh lung linh ĐSH🌺ngay UBND</p>
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <span>
@@ -248,7 +248,7 @@
                     <a href="">
                         <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/dothi.jpg" alt="Ảnh xe máy">
                         <div>
-                            <p>Khu đô thị triệu đô</p>
+                            <p>4x12, hẻm 6m thông đường Mã Lò, có 2 lầu</p>
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <span>
@@ -271,7 +271,7 @@
                     <a href="">
                         <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/iphone.jpg" alt="Ảnh xe máy">
                         <div>
-                            <p>Thế giới di động</p>
+                            <p>samsung j7 prim full chức năng 900k</p>
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <span>
@@ -340,7 +340,7 @@
                     <a href="">
                         <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/nha.jpg" alt="Ảnh xe máy">
                         <div>
-                            <p>Xe mới sử dụng</p>
+                            <p>Mặt Bằng văn phòng kinh doanh Quận Bình</p>
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <span>
@@ -355,7 +355,7 @@
                             <div>
                                 <i class="fa-solid fa-circle"></i>
                             </div>
-                            <span>Quảng Nam</span>
+                            <span>TP.Hồ Chí Minh</span>
                         </div>
                     </a>
                 </li>
@@ -363,7 +363,7 @@
                     <a href="">
                         <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/oto.jpg" alt="Ảnh xe máy">
                         <div>
-                            <p>Xe mới sử dụng</p>
+                            <p>Ford Everest Titanium 2021 chính chủ bán</p>
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <span>
@@ -409,7 +409,7 @@
                     <a href="">
                         <img class="home-product-img" src="@/assets/img/img-home/img-product/img-product-list/rungnui.jpg" alt="Ảnh xe máy">
                         <div>
-                            <p>Xe mới sử dụng</p>
+                            <p>Đất rừng có tiềm năng du lịch,khí hậu mát mẽ tài nguyên phong phú.</p>
                             <i class="fa-solid fa-ellipsis-vertical"></i>
                         </div>
                         <span>
@@ -556,6 +556,7 @@ export default {
                 height: 600px;
                 li:hover{
                     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    transform: translateY(-1px);
                 }
                 li {
                     display:flex;
@@ -580,6 +581,10 @@ export default {
                                     width: 150px;
                                     height: 40px;
                                     margin: 8px 0 0 0;
+                                    overflow:hidden;
+                                    display: -webkit-box;
+                                    -webkit-box-orient:vertical;
+                                    -webkit-line-clamp: 2;
                                 }
                             }
                         span {
